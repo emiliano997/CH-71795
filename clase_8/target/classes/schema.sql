@@ -1,0 +1,8 @@
+DROP TABLE ALUMNO IF EXISTS;
+CREATE TABLE ALUMNO (
+    id INT,
+    nombre VARCHAR(150) NOT NULL,
+    apellido VARCHAR(150) NOT NULL,
+    dni INT  NOT NULL,
+    legajo  INT  NOT NULL
+);
